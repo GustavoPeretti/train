@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=Montserrat&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#digit-recognizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+    margin-top: 1.5em;
+}
+
+#digit-recognizer canvas {
+    border: 0.3em white dashed;
+}
+
+#digit-recognizer .arrow {
+    font-size: 3em;
+}
+
+#digit-recognizer .result {
+    font-size: 8em;
+    color: #ff914d;
+    font-weight: bolder;
+    max-width: 1.2em;
+    background-color: black;
+    text-align: center;
+    border: 2px white solid;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+button {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 0.5em;
+    background-color: #2d8fe5;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: none;
+    border-radius: 1em;
+}
+
+button:active {
+    background-color: #216fb4;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#table-container table {
+    border-spacing: 0;
+}
+
+#table-container table td, #table-container table th {
+    border: 1px white solid;
+    padding: 0.25em;
+    font-size: 1.25em;
+    width: 1.5em;
+    text-align: center;
+}
